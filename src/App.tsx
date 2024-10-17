@@ -1,6 +1,7 @@
 import { Button, Stack, useTheme } from '@mui/material'
 import './App.css'
 import { Stat } from './ui/Stat';
+import Chat from './ui/Chat';
 
 function App() {
   const theme = useTheme();
@@ -11,6 +12,7 @@ function App() {
         <Stat value="1.9M" unit="Favorites" />
         <Stat value="5.1M" unit="Views" variant="outlined" />
       </Stack>
+      <Chat/>
     </>
   )
 }
